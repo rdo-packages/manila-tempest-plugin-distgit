@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a6ced46_e64540b4",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-12-21T16:20:51Z",
+      "side": 1,
+      "message": "These requires should use the python3- subpackages",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 27
+      },
+      "revId": "36d6ed759231c80ff685e65d43f803229ed081c3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
