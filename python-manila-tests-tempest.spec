@@ -40,9 +40,9 @@ BuildRequires:  python2-setuptools
 
 Obsoletes:   python-manila-tests < 6.0.0
 
-Requires:   python2-pbr >= 2.0.0
+Requires:   python2-pbr >= 3.1.1
 Requires:   python2-ddt
-Requires:   python2-tempest >= 1:17.2.0
+Requires:   python2-tempest >= 1:18.0.0
 Requires:   python2-oslo-log >= 3.36.0
 
 %description -n python2-%{service}-tests-tempest
@@ -67,9 +67,9 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 
-Requires:   python3-pbr >= 2.0.0
+Requires:   python3-pbr >= 3.1.1
 Requires:   python3-ddt
-Requires:   python3-tempest >= 1:17.2.0
+Requires:   python3-tempest >= 1:18.0.0
 Requires:   python3-oslo-log >= 3.36.0
 
 %description -n python3-%{service}-tests-tempest
