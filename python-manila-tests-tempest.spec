@@ -20,8 +20,8 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Version:    0.1.0
+Release:    1%{?alphatag}%{?dist}
 Summary:    Tempest Integration of manila Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -128,5 +128,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Wed Sep 05 2018 RDO <dev@lists.rdoproject.org> 1:0.1.0-1.d23abafgit
+- Update to 0.1.0
+
 * Mon Feb 19 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.d23abaf0git
 - Update to pre-release 0.0.1 (d23abaf0e326a406ba29667d637b2587ad08900a)
