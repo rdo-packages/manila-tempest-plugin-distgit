@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_01b1858f",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-09-05T13:12:41Z",
+      "side": 1,
+      "message": "version",
+      "range": {
+        "startLine": 1,
+        "startChar": 49,
+        "endLine": 1,
+        "endChar": 55
+      },
+      "revId": "c0645806f97519e32b01a31cba7e9e667cdbd4d3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_21bb6974",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-09-05T13:12:41Z",
+      "side": 1,
+      "message": "It needs to be removed",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 35
+      },
+      "revId": "c0645806f97519e32b01a31cba7e9e667cdbd4d3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
