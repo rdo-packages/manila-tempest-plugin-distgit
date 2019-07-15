@@ -16,7 +16,7 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    0.1.0
+Version:    0.3.0
 Release:    1%{?dist}
 Summary:    Tempest Integration of manila Project
 License:    ASL 2.0
@@ -124,6 +124,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Mon Jul 15 2019 RDO <dev@lists.rdoproject.org> 1:0.3.0-1
+- Update to 0.3.0
+
 * Wed Sep 05 2018 RDO <dev@lists.rdoproject.org> 1:0.1.0-1
 - Update to 0.1.0
 
