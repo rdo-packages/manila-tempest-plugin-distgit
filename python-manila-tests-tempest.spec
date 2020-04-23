@@ -79,7 +79,8 @@ rm -rf %{module}.egg-info
 
 # Generate Docs
 %if 0%{?with_doc}
-%{pyver_bin} setup.py build_sphinx -b html
+# generate html docs
+sphinx-build -W -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
@@ -100,3 +101,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/manila-tempest-plugin/commit/?id=2db30b840ab3429b905417efe52470015cb7297b
