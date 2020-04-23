@@ -100,3 +100,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/manila-tempest-plugin/commit/?id=2db30b840ab3429b905417efe52470015cb7297b
