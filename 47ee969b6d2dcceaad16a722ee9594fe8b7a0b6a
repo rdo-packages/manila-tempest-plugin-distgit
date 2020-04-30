@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "598d3304_11922c19",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-04-30T15:24:16Z",
+      "side": 0,
+      "message": "this was removed mistakenly, re adding",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 10
+      },
+      "revId": "47ee969b6d2dcceaad16a722ee9594fe8b7a0b6a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
