@@ -46,6 +46,30 @@
       "revId": "414ddfd07f510a948e7c6b13b0214619e9489de6",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0a3e828_1c9a66b9",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-15T10:57:29Z",
+      "side": 1,
+      "message": "because both py2 and py3 stestr not installed, issue will happen only when both are installed. so to be safe we use versioned binary.",
+      "parentUuid": "d7d20dc4_0c814857",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 12
+      },
+      "revId": "414ddfd07f510a948e7c6b13b0214619e9489de6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
