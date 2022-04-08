@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "bfdcc71046a3927e1aedd52158c30b958c35fe89",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b6b1912_6c11eb4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2022-04-08T16:12:05Z",
+      "side": 1,
+      "message": "The failure was caused by an infra problem:\n2022-04-08 16:04:51.925122 | rdo-centos-stream | 2022-04-08 16:04:51,925 INFO:dlrn-build:  - Status code: 404 for http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/repodata/632ab04fca0dbc5c50357f317a453202ee2bac23f49452795051516563c2a5f3-filelists.xml.gz (IP: 67.220.193.10)\n2022-04-08 16:04:51.925239 | rdo-centos-stream | 2022-04-08 16:04:51,925 INFO:dlrn-build:  - Status code: 404 for http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/repodata/7833cee0d8269abcf20a9966aa888f2a4f13aa2833c77d0e9e2c43aebb8363a9-primary.xml.gz (IP: 67.220.193.10)\n2022-04-08 16:04:51.925445 | rdo-centos-stream | 2022-04-08 16:04:51,925 INFO:dlrn-build:Error: Failed to download metadata for repo \u0027Stream-PowerTools\u0027: Yum repo downloading error: Downloading error(s): ",
+      "revId": "bfdcc71046a3927e1aedd52158c30b958c35fe89",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
