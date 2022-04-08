@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x4c29ff0e437f3351fd82bdf47c5a3bc787dc7035
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 %global service manila
 %global plugin manila-tempest-plugin
 %global module manila_tempest_tests
@@ -14,7 +14,7 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    1.6.0
+Version:    1.7.0
 Release:    1%{?dist}
 Summary:    Tempest Integration of manila Project
 License:    ASL 2.0
@@ -106,6 +106,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Apr 08 2022 RDO <dev@lists.rdoproject.org> 1:1.7.0-1
+- Update to 1.7.0
+
 * Wed Sep 29 2021 RDO <dev@lists.rdoproject.org> 1:1.6.0-1
 - Update to 1.6.0
 
