@@ -16,6 +16,7 @@ Name:       python-%{service}-tests-tempest
 Epoch:      1
 Version:    2.0.0
 Release:    1%{?dist}
+Epoch:      1
 Summary:    Tempest Integration of manila Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -111,4 +112,5 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 
 * Wed Mar 15 2023 RDO <dev@lists.rdoproject.org> 1:1.13.0-1
 - Update to 1.13.0
+
 
