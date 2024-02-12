@@ -13,7 +13,7 @@ Additionally it provides a plugin to automatically load these tests \
 into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Epoch:      1
+Epoch:      2
 Version:    2.0.0
 Release:    1%{?dist}
 Summary:    Tempest Integration of manila Project
@@ -111,4 +111,5 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 
 * Wed Mar 15 2023 RDO <dev@lists.rdoproject.org> 1:1.13.0-1
 - Update to 1.13.0
+
 
