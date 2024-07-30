@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b00abbc9_767e4713",
+        "filename": "python-manila-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-07-30T15:54:02Z",
+      "side": 1,
+      "message": "no \"rebuild in bobcat\" and a 2.4.0-2 entry? I guess it\u0027s not strictly needed?",
+      "revId": "1009633e791ab57765ce643d44677adfe4f8654a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
