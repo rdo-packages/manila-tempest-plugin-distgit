@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "836b2a19_3ae90d60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-07-30T14:02:05Z",
+      "side": 1,
+      "message": "recheck\n\napparently infra issue:\n\nDEBUG util.py:461:  Error: Error downloading packages:\nDEBUG util.py:461:    annobin-12.64-1.el9.x86_64: Download failed: Curl error (60): Peer certificate cannot be authenticated with given CA certificates for https://kojihub.stream.centos.org/kojifiles/repos/c9s-build/latest/x86_64/toplink/packages/annobin/12.64/1.el9/x86_64/annobin-12.64-1.el9.x86_64.rpm [SSL certificate problem: unable to get local issuer certificate]\nDEBUG util.py:610:  Child return code was: 1\nDEBUG util.py:185:  kill orphans in chroot /var/lib/mock/cloud9s-openstack-caracal-el9s-build-225232-1237368/root",
+      "revId": "6ea1be0f93b28d3d131f2e4315e7dc94aeeb87a7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
