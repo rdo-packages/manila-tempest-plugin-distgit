@@ -124,3 +124,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 * Wed Oct 04 2023 RDO <dev@lists.rdoproject.org> 1:2.0.0-1
 - Update to 2.0.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/manila-tempest-plugin/commit/d9530e01facd4edbbc72fd8216500885ef3cb00b
