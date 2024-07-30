@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %global service manila
 %global plugin manila-tempest-plugin
 %global module manila_tempest_tests
@@ -20,8 +20,8 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    2.2.0
-Release:    1%{?dist}
+Version:    2.4.0
+Release:    3%{?dist}
 Summary:    Tempest Integration of manila Project
 License:    Apache-2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -118,6 +118,12 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Tue Jul 30 2024 Alfredo Moralejo <amoralej@redhat.com> 1:2.4.0-3
+- Rebuild in Caracal
+
+* Tue Jul 30 2024 RDO <dev@lists.rdoproject.org> 1:2.4.0-1
+- Update to 2.4.0
+
 * Wed Mar 20 2024 RDO <dev@lists.rdoproject.org> 1:2.2.0-1
 - Update to 2.2.0
 
