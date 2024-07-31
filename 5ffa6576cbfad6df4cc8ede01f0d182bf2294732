@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Workflow+1: Luigi Toscano <ltoscano@redhat.com>
+Code-Review+2: Luigi Toscano <ltoscano@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 31 Jul 2024 12:33:09 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/manila-tempest-plugin-distgit/+/53921
+Project: openstack/manila-tempest-plugin-distgit
+Branch: refs/heads/caracal-rdo
