@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20cf6fd2_84505e21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-12-13T15:47:58Z",
+      "side": 1,
+      "message": "Glitch? Zuul jobs passed",
+      "revId": "63a7aaa892cfe665e4cdd8f2372fb02ddb4af5aa",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
